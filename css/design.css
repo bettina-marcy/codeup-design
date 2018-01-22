@@ -4,9 +4,30 @@ body{
 .jumbotron{
     background-color:white;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 12%;
 }
-.logo{
-    width:105px;
-    height: 105px;
+
+
+
+h1 {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 93px;
+    font-size: 64px;
+    font-weight: bold;
+
 }
+
+
+
+.jumbotron > .inner {
+    position: absolute;
+    z-index: 2;
+
+}
+
