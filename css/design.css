@@ -1,5 +1,5 @@
 body{
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
 .jumbotron{
     background-color:white;
@@ -46,15 +46,97 @@ h3{
 }
 .circle{
     display: table-cell;
-    height: 200px; /*change this and the width
-for the size of your initial circle*/
-    width: 200px;
+    height: 5em;
+    width: 5em;
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    /*make it pretty*/
-    background: #000;
-    color: #fff;
-    font: 18px "josefin sans", arial; /*change this
-for font-size and font-family*/
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+    border: .2em solid white;
 }
+
+.circle-red {
+    background-color: #E6563B;
+}
+
+.circle-orange {
+    background-color: #EB9D3A;
+}
+
+.circle-blue {
+background-color: #00ABA9;
+}
+
+
+.circle-green {
+    background-color: #7CB06C
+}
+
+.circle-row {
+    margin-top: 5em;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+hr {
+    color: black;
+    width: 5px;
+
+}
+
+.project {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+    float: left;
+
+
+}
+
+.box-img {
+    margin: 5% 0;
+}
+
+
+.dot {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #bbb;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    float: right;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 0px;
+
+}
+
+.dot-red {
+    background-color: #E6563B;
+
+}
+
+.dot-orange {
+    background-color: #EB9D3A;
+
+}
+
+.dot-blue {
+    background-color: #00ABA9;
+
+}
+
+
+.dot-green {
+    background-color: #7CB06C;
+
+}
+
+
