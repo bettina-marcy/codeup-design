@@ -170,5 +170,17 @@ li {
     }
 }
 
+.tweet{
+    font-family: Abel, sans-serif;
+    font-size: 20px;
+}
 
-
+h5{
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+}
+.admin_bar{
+    display: block;
+    box-sizing: border-box;
+    text-align: right;
+}
