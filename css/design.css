@@ -16,7 +16,7 @@ p, .nav{
     font-family: 'Abel', sans-serif;
 }
 
-.jumbotron p{
+p{
     text-align: center;
     font-size: 7em;
 }
@@ -31,7 +31,7 @@ p, .nav{
 
 .nav li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 55px;
 }
 h1, h3{
     font-family: 'Anton', sans-serif;
@@ -147,5 +147,4 @@ li {
 .dot-layout {
     float: right;
 }
-
 
